@@ -35,3 +35,45 @@ img{
     width: 50px;
     height: 85px;
 }
+.footer{
+background:#f8f9fa;
+padding:60px 0;
+margin-top:60px;
+}
+
+.footer h4{
+font-size:18px;
+margin-bottom:15px;
+font-weight:600;
+}
+
+.footer p{
+margin:0;
+font-size:14px;
+}
+
+.footer .icon{
+font-size:24px;
+color:#198754;
+margin-right:15px;
+}
+
+.footer .social-links a{
+display:flex;
+align-items:center;
+justify-content:center;
+width:36px;
+height:36px;
+margin-right:10px;
+border-radius:50%;
+border:1px solid #ddd;
+color:#333;
+text-decoration:none;
+transition:0.3s;
+}
+
+.footer .social-links a:hover{
+background:#198754;
+color:white;
+border-color:#198754;
+}
